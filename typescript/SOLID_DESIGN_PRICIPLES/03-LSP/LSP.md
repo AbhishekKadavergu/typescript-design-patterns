@@ -23,3 +23,5 @@ A subclass must not:
 - Change meaning of methods
 
 ---
+
+> LSP means a subclass must fully honor the behavioral contract defined by its parent. If a subclass needs to throw errors, disable methods, or change expected behavior, then the inheritance relationship is incorrect.
